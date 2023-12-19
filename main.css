@@ -185,12 +185,12 @@ li,
   }
 
   main {
-    margin: 100px 10.3125rem;
+    margin: 6.25rem 10.3125rem;
   }
 
   article {
     flex-direction: row;
-    gap: 10px;
+    gap: 0.625rem;
   }
 
   .proof-desc {
