@@ -59,6 +59,7 @@ body {
   font-size: var(--fs-400);
 
   background: url(/images/bg-pattern-top-mobile.svg) top;
+  background-repeat: no-repeat;
 }
 
 main {
