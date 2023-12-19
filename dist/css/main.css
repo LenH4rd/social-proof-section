@@ -1,0 +1,71 @@
+:root {
+  --clr-primary-900: hsl(300, 43%, 22%);
+  --clr-primary-300: hsl(333, 80%, 67%);
+
+  --clr-neutral-700: hsl(303, 10%, 53%);
+  --clr-neutral-200: hsl(300, 24%, 96%);
+  --clr-neutral-000: hsl(0, 0%, 100%);
+
+  --fs-400: 0.9375rem;
+  --ff-400: "League Spartan", sans-serif;
+
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-700: 700;
+}
+
+/*simple CSS reset*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/*Screen Readers*/
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: hidden;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: var(--ff-400);
+  font-size: var(--fs-400);
+}
+
+main {
+  padding: 0 1.5rem;
+}
+
+.container {
+  background-color: var(--clr-primary-900);
+  color: white;
+}
+
+@media (width >= 48rem) {
+}
